@@ -2,7 +2,7 @@
 
 This R script automates the extraction of fluorescence and digital input (DIO) data from multiple `.doric` fiber photometry files.  
 It is designed for experiments involving **footshock delivery**, where the onset of each shock is detected from DIO signals.  
-The script organizes all input files, exports clean CSVs for each signal channel, and logs shock onset timestamps for downstream analyses (in Guppy).
+The script organizes all input files, exports clean CSVs for signal channel, control channel, and shock onset timestamps csv for downstream analyses (in Guppy).
 
 ---
 
